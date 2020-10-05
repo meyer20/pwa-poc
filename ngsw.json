@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1601931717416,
+  "timestamp": 1601932483340,
   "index": "https://github.com/meyer20/pwa-poc/index.html",
   "assetGroups": [
     {
@@ -51,7 +51,7 @@
     "https://github.com/meyer20/pwa-poc/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://github.com/meyer20/pwa-poc/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://github.com/meyer20/pwa-poc/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://github.com/meyer20/pwa-poc/index.html": "33b27cf284ec1bca1585df9665f8c3dc8abe6cd6",
+    "https://github.com/meyer20/pwa-poc/index.html": "cbb342cea05bd47d585795ee0cb358566796df0f",
     "https://github.com/meyer20/pwa-poc/main-es2015.f3ed9efaa310dadc23cd.js": "f26c9e6858e6962ea9e041f0ec0fa2b7f1afb08c",
     "https://github.com/meyer20/pwa-poc/main-es5.f3ed9efaa310dadc23cd.js": "fd7712a25fcda8599088a1332900f0be10410714",
     "https://github.com/meyer20/pwa-poc/manifest.webmanifest": "2bba9ccff3197b29db3b05f5bd401ae12f540524",
