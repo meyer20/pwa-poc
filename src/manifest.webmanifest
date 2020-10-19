@@ -60,7 +60,7 @@
   "shortcuts": [{
     "name": "Atalho 1",
     "description": "shortcut 1",
-    "url": "/1",
+    "url": "/route1",
     "icons": [{
       "src": "assets/icons/icon-72x72.png",
       "type": "image/png",
@@ -69,7 +69,7 @@
   }, {
    "name": "Atalho 2",
    "description": "shortcut 2",
-   "url": "/1",
+   "url": "/route2",
    "icons": [{
      "src": "assets/icons/icon-72x72.png",
      "type": "image/png",
