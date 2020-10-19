@@ -26,12 +26,11 @@ export class MainComponent implements OnInit {
     window.addEventListener('appinstalled', (evt) => {
       console.log('INSTALL: Success', evt);
       this.needToInstall = false;
-      this.executingSource = 'standalone';
     });
 
     // escuta o status da conexão da página
-    window.addEventListener('online',  this.onNetworkStatusChange.bind(this));
-    window.addEventListener('offline', this.onNetworkStatusChange.bind(this));
+    window.addEventListener('online',  this.onNetworkStatusChange);
+    window.addEventListener('offline', this.onNetworkStatusChange);
     window.addEventListener('beforeinstallprompt', event => {
       console.log('beforeinstallprompt', event);
       this.needToInstall = true;
