@@ -41,6 +41,7 @@ export class MainComponent implements OnInit {
     window.addEventListener('DOMContentLoaded', () => {
       if (window.matchMedia('(display-mode: standalone)').matches) {
         this.executingSource = 'standalone';
+        alert('DISPLAY_MODE_CHANGED');
         console.log('DISPLAY_MODE_CHANGED', this.executingSource);
       }
     });
