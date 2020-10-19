@@ -22,9 +22,11 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
+    alert('onInit');
     // verifica se o aplicativo ja esta instalado
     window.addEventListener('appinstalled', (evt) => {
       console.log('INSTALL: Success', evt);
+      alert('appinstalled');
       this.needToInstall = false;
       this.executingSource = 'standalone';
     });
@@ -34,6 +36,7 @@ export class AppComponent implements OnInit {
     window.addEventListener('offline', this.onNetworkStatusChange.bind(this));
     window.addEventListener('beforeinstallprompt', event => {
       console.log('beforeinstallprompt', event);
+      alert('needToInstall');
       this.needToInstall = true;
       this.promptEvent = event;
     });
